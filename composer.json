@@ -1,13 +1,13 @@
 {
-    "name": "callmez/yii2-wechat",
+    "name": "raysoft/yii2-wechat",
     "type": "yii2-extension",
-    "description": "The wechat module for the Yii framework",
+    "description": "适用于Yii2的微信接口模块。原作者不继续更新了，fork后维护使用。",
     "keywords": ["yii2", "wechat", "weixin", "module"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/callmez/yii2-wechat/issues",
-        "wiki": "https://github.com/callmez/yii2-wechat/wiki",
-        "source": "https://github.com/callmez/yii2-wechat"
+        "issues": "https://github.com/jesonray/yii2-wechat/issues",
+        "wiki": "https://github.com/jesonray/yii2-wechat/wiki",
+        "source": "https://github.com/jesonray/yii2-wechat"
     },
     "authors": [
         {
@@ -33,9 +33,9 @@
         "bower-asset/angular-drag-and-drop-lists": "1.*"
     },
     "autoload": {
-        "psr-4": {"callmez\\wechat\\": ""}
+        "psr-4": {"raysoft\\wechat\\": ""}
     },
     "extra": {
-        "bootstrap": "callmez\\wechat\\Bootstrap"
+        "bootstrap": "raysoft\\wechat\\Bootstrap"
     }
 }
